@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 :root{
-    font-family: "Poppins", sans-serif;
     /* Shape */
     --brand-color: #EF5F4C;
     --background-color: #FFFFFF;
@@ -11,12 +10,22 @@
     /* Text */
     --text-color-primary: #313131;
     --text-color-secondary: #6C6C6C;
+
+    --font-family: "Poppins", sans-serif;
+    --text-lg: bold 32px/125% var(--font-family);
+    --text: 16px/150% var(--font-family); 
+    --text-md: 14px/175% var(--font-family);
+    --text-sm: 12px/175% var(--font-family); 
 }
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+body{
+    font: var(--text);
 }
 
 h1 {
