@@ -1,1 +1,31 @@
 @charset "UTF-8";
+
+:root{
+    font-family: "Poppins", sans-serif;
+    /* Shape */
+    --brand-color: #EF5F4C;
+    --background-color: #FFFFFF;
+    --surface-color: #F5F5F5;
+    --skeleton-color: #D9D9D9;
+    --shape-transparency: #ffffff 56%;
+    /* Text */
+    --text-color-primary: #313131;
+    --text-color-secondary: #6C6C6C;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 125%;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    line-height: 170%;
+    font-weight: normal ;
+}
