@@ -3,8 +3,8 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px 32px;
     align-items: center;
+    padding-block: 20px;
 }
 
 nav ul{
