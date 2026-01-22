@@ -11,6 +11,16 @@ nav ul{
     display: flex;
     list-style: none;
     align-items: center;
+    padding-block: 4px;
+    gap: 16px;
+}
+
+nav ul li{
+    padding: 4px;
+}
+
+nav ul li:last-child{
+    padding: 0px;
 }
 
 nav ul li:last-child img{
