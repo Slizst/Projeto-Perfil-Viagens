@@ -1,0 +1,49 @@
+@import url(global.css);
+
+header{
+    padding-block: 32px;
+}
+
+div.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#profile{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+div#profile > div{
+    max-width: 384px;
+}
+
+div#profile > div h1{
+    margin-bottom: 8px;
+}
+
+div#profile > div p{
+    font: var(--text-md);
+    color: var(--text-color-secondary)
+}
+
+ul#info{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 16px;
+    width: 280px;
+}
+
+ul#info span{
+    font: var(--text-md);
+    color: var(--text-color-secondary);
+}
+
+ul#info li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

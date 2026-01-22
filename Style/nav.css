@@ -13,6 +13,7 @@ nav ul{
     align-items: center;
     padding-block: 4px;
     gap: 16px;
+    max-width: 325px;
 }
 
 nav ul li{
