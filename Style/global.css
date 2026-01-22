@@ -23,3 +23,32 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body{
+    color: var(--text-color-secondary);
+    background-color: var(--background-color);
+    font: var(--text);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font: var(--text);
+}
+
+a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+a.lupa .img{
+    width: 24px;
+    height: 24px;
+    background: url(../Assets/Icons/lupamenu.png) center/cover no-repeat;
+    display: block;
+    transition: 0.3 ease;
+}
+
+a.lupa:hover .img{
+    background-image: url(../Assets/Icons/LupaSelectedr.png);
+}

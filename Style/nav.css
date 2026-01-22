@@ -2,14 +2,20 @@
 
 nav{
     display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+    align-items: center;
 }
 
 nav ul{
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 nav ul li:last-child img{
     width: 40px;
     height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
 }
