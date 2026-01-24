@@ -15,7 +15,7 @@
     --text-lg: bold 32px/125% var(--font-family);
     --text: 16px/150% var(--font-family); 
     --text-md: 14px/170% var(--font-family);
-    --text-sm: 12px/170% var(--font-family); 
+    --text-sm: 12px/170% var(--font-family);
 }
 
 *{
@@ -24,15 +24,40 @@
     box-sizing: border-box;
 }
 
+/* body{
+    background-color: var(--text-color-primary);
+} */
+
 body{
     color: var(--text-color-secondary);
     background-color: var(--background-color);
     font: var(--text);
 }
 
+/* div#pagewrap{
+    background-color: var(--brand-color);
+    width: 1320px;
+    padding: 20px;
+    border-radius: 55px;
+    margin: 40px auto;
+} */
+
+/* div#page{
+    background-color: var(--background-color);
+    border-radius: 35px;
+    font: var(--text);
+    color: var(--text-color-secondary);
+} */
+
 div#header {
     background-color: var(--surface-color);
+    /* border-top-left-radius: 20px; */
+    /* border-top-right-radius: 20px; */
 }
+
+/* div#header {
+    background-color: var(--surface-color);
+} */
 
 h1{
     font: var(--text-lg);
