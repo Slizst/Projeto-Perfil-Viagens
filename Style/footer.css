@@ -7,6 +7,11 @@ footer{
     align-items: center;
 }
 
+footer p{
+    font: var(--text-md);
+    color: var(--text-color-secondary);
+}
+
 footer ul{
     list-style: none;
     display: flex;
