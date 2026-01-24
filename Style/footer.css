@@ -1,0 +1,18 @@
+@import url(global.css);
+
+footer{
+    padding-block: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+footer li{
+    padding: 4px;
+}
