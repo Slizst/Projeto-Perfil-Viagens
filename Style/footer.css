@@ -21,3 +21,13 @@ footer ul{
 footer li{
     padding: 4px;
 }
+
+footer a#creator{
+    color: var(--text-color-primary);
+    font-style: bolder;
+    font-size: 16px;
+}
+
+a#creator:hover{
+    color: var(--brand-color);
+}
